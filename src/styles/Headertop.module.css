@@ -1,0 +1,42 @@
+.container  {
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.right {
+    display: flex;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+
+    justify-content: center;
+    align-items: center;
+    
+    list-style: none;
+    
+}
+.right a {
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 20px;
+    
+}
+
+
+/*
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+*/
