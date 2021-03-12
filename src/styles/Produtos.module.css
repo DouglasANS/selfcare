@@ -1,0 +1,25 @@
+.container{
+    max-width: 1400px;
+    margin: 0 auto; /*faz a imagem ficar centralizada*/
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.container div{
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    flex: 1 1 300px;
+}
+.container img{
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/*se eu coloco display flex no container, as divs viram flex
+flex é o resumo de 3 propriedades flex-grow(ajustar os flex itens em um container maior)
+flex-shrink(definir tamanho minimo)
+flex-basis(tamanhop minimo ate onde tem que acalnçar)*/
