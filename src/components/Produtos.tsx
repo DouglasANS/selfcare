@@ -3,9 +3,9 @@ import styles from '../styles/Produtos.module.css';
 
 export function Produto(){
     return(
-            <section className={styles.container}>
+            <div className={styles.container}>
                 <div>
-                    <img src="/s1.jpg" alt=""/>
+                    <img src="/s1.jpg" className={styles.asd} alt=""/>
                     <h2>Lorem ipsum dolor sit</h2>
                     <h3>R$ 50,00</h3>
                 </div>
@@ -49,7 +49,7 @@ export function Produto(){
                     <h2>Lorem ipsum dolor sit</h2>
                     <h3>R$ 50,00</h3>
                 </div>                
-            </section>
+            </div>
             
         
     )

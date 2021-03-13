@@ -1,5 +1,5 @@
 .container  {
-     
+     display: flex;
     justify-content: space-between;
 }
 .left{
@@ -30,6 +30,12 @@
     margin-right: 10px;
     margin-left: 20px;
     
+}
+
+@media (max-width: 360px){
+    .container{
+        width: 100%;
+    }
 }
 
 

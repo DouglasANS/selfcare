@@ -1,23 +1,47 @@
 .container{
-    max-width: 1400px;
-    margin: 0 auto; /*faz a imagem ficar centralizada*/
-
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    
 }
-.container div{
+.container div{  
+    
     margin-left: 3%;
     margin-right: 3%;
     margin-top: 40px;
     margin-bottom: 10px;
-    flex: 1 1 300px;
+    flex-basis: 200px;
 }
-.container img{
-    width: 100%;
+.container div img{
+   text-align: center;
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
-    height: 400px;
     object-fit: cover;
 }
+
+.asd h3, .asd h2{
+    width: 250px;
+   
+    
+}
+
+/*media queries*/
+@media (max-width: 1114px) {
+    .container div{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+
+
+/* justify-content: center; /*alinhado ao centro horizontalmente 
+  align-items: center;  alinhado ao centro verticalmente*/
+
+
+
+
 
 /*se eu coloco display flex no container, as divs viram flex
 flex é o resumo de 3 propriedades flex-grow(ajustar os flex itens em um container maior)
