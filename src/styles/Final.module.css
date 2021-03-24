@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    list-style: none;
+}
+
+.left, .right{
+ margin-left: 40px;
+ margin-right: 40px;
+}
+
+.left a{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.right a{
+    display: flex;
+    width: 80px;
+    height: 40px;
+    
+}
+
+
+
+
+.um, .dois, .tres, .quatro, .cinco{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+}
+
+.um:hover, .dois:hover, .tres:hover, .quatro:hover, .cinco:hover{
+    opacity: 50%;
+}
+
+.um {
+    background-image: url("/insta.png");      
+}
+.dois {
+    background-image: url("/face.png");
+}
+.tres {
+    background-image: url("/masterc.png");
+}
+.quatro {
+    background-image: url("/pp.png");
+}
+.cinco {
+    background-image: url("/visa.png");
+}
+
+.container li{
+    display: inline-block; /*remove os pontos da li*/
+    padding-left: 10px;
+    
+}

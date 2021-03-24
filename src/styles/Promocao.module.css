@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.container h1{
+    margin-left: 40px;
+    font-size: 22px;
+}
+
+.container h2{
+    margin-right: 50px;
+    font-size: 15px;
+}

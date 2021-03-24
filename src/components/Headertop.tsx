@@ -5,12 +5,12 @@ export function Headercima(){
     return(
         <div className={styles.container}>
              <div className={styles.left}>
-                <h1>selfcare</h1>
+                <img src="/selflogo.png" alt=""/>
              </div>
              <div className={styles.right}>
-                <li><a href="">1</a></li>
-                <li><a href="">2</a></li>
-                <li><a href="">3</a></li>
+                <li><a href="1" className={styles.um}></a></li>
+                <li><a href="2" className={styles.dois}></a></li>
+                <li><a href="3" className={styles.tres}></a></li>
              </div>
         </div>
     )
